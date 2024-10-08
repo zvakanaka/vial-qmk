@@ -13,3 +13,6 @@ COMBO_ENABLE        = no
 QMK_SETTINGS        = no
 
 DYNAMIC_MACRO_ENABLE = yes
+
+### For qmk debugging
+# CONSOLE_ENABLE=yes
