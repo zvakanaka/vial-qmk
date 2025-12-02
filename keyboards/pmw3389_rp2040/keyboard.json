@@ -1,0 +1,33 @@
+{
+    "manufacturer": "zvakanaka",
+    "url": "https://github.com/zvakanaka/pmw3389",
+    "maintainer": "zvakanaka",
+    "keyboard_name": "PMW3389-RP2040",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": false
+    },
+    "usb": {
+        "vid": "0x5A69",
+        "pid": "0x3360",
+        "device_version": "1.0.0"
+    },
+    "matrix_pins": {
+        "cols": ["NO_PIN"],
+        "rows": ["NO_PIN"]
+    },
+    "diode_direction": "COL2ROW",
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 }
+            ]
+        }
+    }
+}
