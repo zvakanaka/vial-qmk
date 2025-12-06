@@ -23,8 +23,7 @@
 #define MOUSE_EXTENDED_REPORT // Use -32767 to 32767, instead of just -127 to 127.
 // Throttle adds necessary delays between sensor reads
 #define POINTING_DEVICE_TASK_THROTTLE_MS 10
-// Rotate sensor data 30 degrees counter-clockwise
-#define ROTATIONAL_TRANSFORM_ANGLE 30
+// Rotation handled dynamically in keymap.c
 
 /* RP2040 Reset. */
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
@@ -34,7 +33,7 @@
  *  These options are also useful to firmware size reduction.
  */
 
-#define POINTING_DEVICE_DEBUG
+// #define POINTING_DEVICE_DEBUG
 /* disable debug print */
 // #define NO_DEBUG
 
